@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo das Escolhas</title>
+
+    <link rel="shortcut icon" href="Favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="main.js"></script>
+    <div id="game-container">
+        <h2 id="title">Missão de Infiltração</h2>
+        <img id="scene-img" src="inicio.jpg" alt="Cena do Jogo">
+        <p id="story">Você é um integrante do exército brasileiro e foi convocado para uma missão de infiltração como líder do grupo. As informações foram dadas e resta escolher como que a missão será realizada:</p>
+        <button class="choice" onclick="escolha('silencio')">Infiltrar-se silenciosamente</button>
+        <button class="choice" onclick="escolha('forcaBruta')">Utilizar força bruta</button>
+    </div>
+
+    <!--JS-->
+    <script src="main.js"></script>
+</body>
+</html>
